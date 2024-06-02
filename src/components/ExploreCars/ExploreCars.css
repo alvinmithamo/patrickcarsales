@@ -1,0 +1,37 @@
+.explore-cars {
+    padding: 20px;
+    text-align: center;
+}
+
+.car-categories {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.car-card {
+    flex: 1 1 calc(20% - 40px);
+    max-width: 200px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.car-card img {
+    width: 100%;
+    height: auto;
+}
+
+.car-card h3 {
+    margin: 10px 0;
+    font-size: 1rem;
+    color: #333;
+}
+
+.car-card:hover {
+    transform: translateY(-10px);
+}
