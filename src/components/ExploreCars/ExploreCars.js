@@ -5,7 +5,8 @@ import image3 from '../../images/image3.jpg';
 import image4 from '../../images/image4.jpg';
 import image5 from '../../images/image5.jpg';
 import image6 from '../../images/image6.jpg'
-import '../ExploreCars/ExploreCars.css'
+import '../ExploreCars/ExploreCars.css';
+import CarCard from '../CarCard/CarCard';
  
 const carCategories = [
   { name: 'Electric & Hybrid', image: image2},
@@ -25,7 +26,9 @@ const ExploreCars = () => {
             <img src={car.image} alt={car.name} />
             <h3>{car.name}</h3>
             </div>
+            
         ))}
+       
       </div>
     </div>
     // <Container className='my-5'>
