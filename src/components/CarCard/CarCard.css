@@ -1,0 +1,96 @@
+.car-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+    margin: 10px;
+}
+
+.car-card-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    background: #f8f8f8;
+}
+
+.car-card-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.car-card-body {
+    padding: 8px;
+}
+
+.car-title {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.car-card-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    background: #f8f8f8;
+}
+
+/* .featured {
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.photos-count {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.year {
+    background-color: grey;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.car-card-image {
+    width: 100%;
+    height: auto;
+}
+
+.car-card-body {
+    padding: 10px;
+}
+
+.car-type {
+    color: grey;
+    font-size: 0.9rem;
+}
+
+.car-title {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.car-price {
+    color: green;
+    font-size: 1.1rem;
+}
+
+.car-old-price {
+    color: red;
+    text-decoration: line-through;
+}
+
+.car-card-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #f8f8f8;
+} */
