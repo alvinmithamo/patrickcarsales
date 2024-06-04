@@ -1,12 +1,15 @@
 import React from 'react';
 import { Container, Row, Col, Card, Button } from 'react-bootstrap';
+import Subaru from '../images/subaru.jpg';
+import CX5 from '../images/CX5.jpg';
+import Harrier from '../images/Harrier.jpg'
 
 const recentCars = [
   {
     title: 'Top spec fully loaded executive s450 3000cc',
     price: '8,300,000Ksh',
     originalPrice: '9,500,000Ksh',
-    image: 'path_to_image',
+    image: Subaru,
     fuel: 'Petrol',
     transmission: 'Auto',
     year: 2018,
@@ -15,7 +18,7 @@ const recentCars = [
     title: 'Metallic black sleek ride AMG kit',
     price: '3,500,000Ksh',
     originalPrice: '4,200,000Ksh',
-    image: 'path_to_image',
+    image: Harrier,
     fuel: 'Petrol',
     transmission: 'Auto',
     year: 2017,
@@ -24,7 +27,7 @@ const recentCars = [
     title: 'Metallic red rare color w213',
     price: '4,900,000Ksh',
     originalPrice: '5,500,000Ksh',
-    image: 'path_to_image',
+    image: CX5,
     fuel: 'Petrol',
     transmission: 'Auto',
     year: 2017,
